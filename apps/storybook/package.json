@@ -5,7 +5,7 @@
   "scripts": {
     "android": "rushx prestorybook-native && react-native run-android",
     "ios": "rushx prestorybook-native && react-native run-ios",
-    "start": "haul start",
+    "start": "npx react-native webpack-start",
     "build": "heft test --clean --lite",
     "prestorybook-native": "rnstl",
     "storybook-native": "node ./node_modules/@storybook/react-native-server/bin/index.js -p 7007",
@@ -42,9 +42,6 @@
     "@babel/preset-env": "7.13.10",
     "@babel/preset-react": "7.12.13",
     "@babel/runtime": "7.13.10",
-    "@haul-bundler/babel-preset-react-native": "0.16.0",
-    "@haul-bundler/cli": "0.22.1",
-    "@haul-bundler/preset-0.60": "0.18.0",
     "@react-native-community/async-storage": "1.12.1",
     "@storybook/addon-actions": "5.3.21",
     "@storybook/addon-links": "5.3.21",
