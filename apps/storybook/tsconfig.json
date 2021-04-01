@@ -1,0 +1,7 @@
+{
+  "extends": "./node_modules/@strmbrkr/common-rig/profiles/default/tsconfig.json",
+  "compilerOptions": {
+    "types": ["heft-jest", "node", "react", "react-native"]
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "./src/**/*.stories.tsx"]
+}

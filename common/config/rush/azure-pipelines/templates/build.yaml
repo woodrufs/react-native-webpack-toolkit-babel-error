@@ -1,0 +1,21 @@
+steps:
+  - task: NodeTool@0
+    displayName: 'Use Node $(NodeVersion).x'
+    inputs:
+      versionSpec: '$(NodeVersion).x'
+      checkLatest: true
+
+  - script: 'node common/scripts/install-run-rush.js install'
+    displayName: 'Install dependencies'
+
+  - script: 'node common/scripts/install-run-rush.js change -v'
+    displayName: 'Check changelog'
+
+  - bash: |
+      #!/bin/bash
+      echo "##vso[task.logissue type=error]You did not create a change message (rush change)."
+      exit 1
+    condition: failed()
+
+  - script: 'node common/scripts/install-run-rush.js rebuild --verbose'
+    displayName: 'Build projects'

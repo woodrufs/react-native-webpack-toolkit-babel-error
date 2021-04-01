@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":prHourlyLimitNone", "group:allNonMajor", "monorepo:react"],
+  "enabledManagers": ["npm"],
+  "ignorePaths": ["**/node_modules/**"],
+  "packageRules": [
+    {
+      "packagePatterns": ["@types/"],
+      "groupName": "@types"
+    },
+    {
+      "packageNames": ["react", "react-native", "@types/react-native", "@types/react"],
+      "enabled": false
+    }
+  ],
+  "commitMessagePrefix": "MAP-1743:",
+  "postUpgradeTasks": {
+    "commands": ["node common/scripts/install-run-rush.js update"],
+    "fileFilters": ["**/repo-state.json", "**/pnpm-lock.yaml"]
+  }
+}

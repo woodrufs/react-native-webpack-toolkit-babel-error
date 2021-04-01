@@ -1,0 +1,19 @@
+trigger:
+- main
+
+pool:
+  name: 'Plex Hosted Ubuntu 1604'
+
+jobs:
+  - job: PRBuild
+    condition: succeeded()
+    strategy:
+      matrix:
+        'NodeJs 10':
+          NodeVersion: 10
+        'NodeJs 12':
+          NodeVersion: 12
+
+    steps:
+      - checkout: self
+      - template: templates/build.yaml

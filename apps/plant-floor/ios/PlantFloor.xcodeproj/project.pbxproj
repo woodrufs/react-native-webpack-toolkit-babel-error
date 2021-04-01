@@ -1,0 +1,1204 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* PlantFloorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PlantFloorTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1812D716A804CB28095F2EAD /* libPods-Plant Floor - Prod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 454315330E51FE9B97426360 /* libPods-Plant Floor - Prod.a */; };
+		1CD9544D168C12C52A3E81BC /* libPods-Plant Floor - Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23551900D0047267F120E35E /* libPods-Plant Floor - Test.a */; };
+		5A0410511A89E77CE42BE4B5 /* libPods-Plant Floor - Dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FE5AFBF842F53F56BBB954 /* libPods-Plant Floor - Dev.a */; };
+		79C88FC2260D158F009135A6 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79C88FC1260D158F009135A6 /* AppCenter-Config.plist */; };
+		79C88FC3260D158F009135A6 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79C88FC1260D158F009135A6 /* AppCenter-Config.plist */; };
+		79C88FC4260D158F009135A6 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79C88FC1260D158F009135A6 /* AppCenter-Config.plist */; };
+		D515E6632603DD42004E771A /* LaunchScreen-Production.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen-Production.storyboard */; };
+		D55083BB25FA9BD2006A3ADB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55083BA25FA9BD2006A3ADB /* Colors.xcassets */; };
+		D55083C425FAA271006A3ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		D55083C525FAA271006A3ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D55083C925FAA271006A3ADB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55083BA25FA9BD2006A3ADB /* Colors.xcassets */; };
+		D55083CB25FAA271006A3ADB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		D55083E425FAA379006A3ADB /* LaunchScreen-Development.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55083E325FAA379006A3ADB /* LaunchScreen-Development.storyboard */; };
+		D550845625FAB15F006A3ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		D550845725FAB15F006A3ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D550845B25FAB15F006A3ADB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55083BA25FA9BD2006A3ADB /* Colors.xcassets */; };
+		D550845E25FAB15F006A3ADB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		D550846F25FAB1AD006A3ADB /* LaunchScreen-Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D550846E25FAB1AD006A3ADB /* LaunchScreen-Test.storyboard */; };
+		D550851E25FAD007006A3ADB /* PlantFloor-Test.plist in Resources */ = {isa = PBXBuildFile; fileRef = D550851D25FAD007006A3ADB /* PlantFloor-Test.plist */; };
+		D550852025FAD020006A3ADB /* PlantFloor-Dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = D550851F25FAD020006A3ADB /* PlantFloor-Dev.plist */; };
+		D550852225FAD035006A3ADB /* PlantFloor-Prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = D550852125FAD035006A3ADB /* PlantFloor-Prod.plist */; };
+		D557BCB626125B7F008FFDB6 /* mux-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D557BCB526125B7F008FFDB6 /* mux-icons.ttf */; };
+		D557BCBB26125B84008FFDB6 /* mux-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D557BCB526125B7F008FFDB6 /* mux-icons.ttf */; };
+		D557BCBC26125B85008FFDB6 /* mux-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D557BCB526125B7F008FFDB6 /* mux-icons.ttf */; };
+		F48312CDF9607331762316CD /* libPods-Plant Floor - Dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FE5AFBF842F53F56BBB954 /* libPods-Plant Floor - Dev.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = PlantFloor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* PlantFloorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantFloorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* PlantFloorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlantFloorTests.m; sourceTree = "<group>"; };
+		0A3B9A6E35F90157AAC7E8ED /* Pods-Plant Floor - Test.development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Test.development.release.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Test/Pods-Plant Floor - Test.development.release.xcconfig"; sourceTree = "<group>"; };
+		0C1C0AA65FDC9E92908811E3 /* Pods-PlantFloor-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantFloor-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-PlantFloor-tvOSTests/Pods-PlantFloor-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		10DF860731DED47F4E5E2E4F /* libPods-PlantFloor-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlantFloor-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Plant Floor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plant Floor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PlantFloor/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PlantFloor/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PlantFloor/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PlantFloor/main.m; sourceTree = "<group>"; };
+		1F9A2AEDFE98F5732AD00018 /* Pods-PlantFloor.development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantFloor.development.release.xcconfig"; path = "Target Support Files/Pods-PlantFloor/Pods-PlantFloor.development.release.xcconfig"; sourceTree = "<group>"; };
+		21F8EF9D4062D33841AF3E33 /* Pods-apps-PlantFloor.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apps-PlantFloor.test.xcconfig"; path = "Target Support Files/Pods-apps-PlantFloor/Pods-apps-PlantFloor.test.xcconfig"; sourceTree = "<group>"; };
+		23551900D0047267F120E35E /* libPods-Plant Floor - Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Plant Floor - Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24023144642CEFC183E360C0 /* Pods-Plant Floor - Dev.test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Dev.test.release.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Dev/Pods-Plant Floor - Dev.test.release.xcconfig"; sourceTree = "<group>"; };
+		30F9B1BA6A924EBF96014F6F /* Pods-apps-PlantFloor-PlantFloorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apps-PlantFloor-PlantFloorTests.release.xcconfig"; path = "Target Support Files/Pods-apps-PlantFloor-PlantFloorTests/Pods-apps-PlantFloor-PlantFloorTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F6DDE0A693F86A8547BC032 /* Pods-PlantFloor.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantFloor.development.xcconfig"; path = "Target Support Files/Pods-PlantFloor/Pods-PlantFloor.development.xcconfig"; sourceTree = "<group>"; };
+		4239D429D4524B6E650DE96C /* Pods-Plant Floor - Test.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Test.development.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Test/Pods-Plant Floor - Test.development.xcconfig"; sourceTree = "<group>"; };
+		454315330E51FE9B97426360 /* libPods-Plant Floor - Prod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Plant Floor - Prod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		493D8F0B54EB59CE01DB5475 /* Pods-Plant Floor - Prod.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Prod.test.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Prod/Pods-Plant Floor - Prod.test.xcconfig"; sourceTree = "<group>"; };
+		56EFB49054AFA0071CC9282F /* Pods-Plant Floor - Dev.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Dev.development.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Dev/Pods-Plant Floor - Dev.development.xcconfig"; sourceTree = "<group>"; };
+		592290C817262CA0F98E6425 /* Pods-apps-PlantFloor.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apps-PlantFloor.development.xcconfig"; path = "Target Support Files/Pods-apps-PlantFloor/Pods-apps-PlantFloor.development.xcconfig"; sourceTree = "<group>"; };
+		5E74ED09F1AA46A652F329EF /* Pods-PlantFloor-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantFloor-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PlantFloor-tvOSTests/Pods-PlantFloor-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60569455E51C16240F4966A1 /* Pods-PlantFloor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantFloor.release.xcconfig"; path = "Target Support Files/Pods-PlantFloor/Pods-PlantFloor.release.xcconfig"; sourceTree = "<group>"; };
+		635BD7FE9E8C48763AAFD635 /* Pods-Plant Floor - Prod.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Prod.development.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Prod/Pods-Plant Floor - Prod.development.xcconfig"; sourceTree = "<group>"; };
+		79C88FC1260D158F009135A6 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
+		8093EFAC6BF6DBF406D64091 /* Pods-Plant Floor - Prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Prod.debug.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Prod/Pods-Plant Floor - Prod.debug.xcconfig"; sourceTree = "<group>"; };
+		80FE1E26A0D99C7814971E1E /* Pods-Plant Floor - Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Test.debug.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Test/Pods-Plant Floor - Test.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen-Production.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "LaunchScreen-Production.storyboard"; path = "PlantFloor/LaunchScreen-Production.storyboard"; sourceTree = "<group>"; };
+		8A2B5E8F272FCA5A0F5B1FFA /* Pods-Plant Floor - Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Dev.debug.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Dev/Pods-Plant Floor - Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		8FD4BF109F0A16A7D4821D87 /* Pods-Plant Floor - Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Test.release.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Test/Pods-Plant Floor - Test.release.xcconfig"; sourceTree = "<group>"; };
+		91A174E2E98C3FBC0F6718D4 /* Pods-apps-PlantFloor-PlantFloorTests.development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apps-PlantFloor-PlantFloorTests.development.release.xcconfig"; path = "Target Support Files/Pods-apps-PlantFloor-PlantFloorTests/Pods-apps-PlantFloor-PlantFloorTests.development.release.xcconfig"; sourceTree = "<group>"; };
+		9570D26905655F8BC5B65D90 /* Pods-Plant Floor - Prod.development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Prod.development.release.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Prod/Pods-Plant Floor - Prod.development.release.xcconfig"; sourceTree = "<group>"; };
+		95DFD0F1E87D9A3E40BAF847 /* Pods-PlantFloor.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantFloor.test.xcconfig"; path = "Target Support Files/Pods-PlantFloor/Pods-PlantFloor.test.xcconfig"; sourceTree = "<group>"; };
+		9620C333C9EFED80B5D01215 /* Pods-Plant Floor - Dev.development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Dev.development.release.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Dev/Pods-Plant Floor - Dev.development.release.xcconfig"; sourceTree = "<group>"; };
+		9F2CE717A5D35AAAA4ECBFAC /* Pods-PlantFloor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantFloor.debug.xcconfig"; path = "Target Support Files/Pods-PlantFloor/Pods-PlantFloor.debug.xcconfig"; sourceTree = "<group>"; };
+		A5E237E5A7F4C722993ED400 /* Pods-Plant Floor - Dev.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Dev.test.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Dev/Pods-Plant Floor - Dev.test.xcconfig"; sourceTree = "<group>"; };
+		AE845786C01013C37A9F9FD9 /* Pods-PlantFloor-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantFloor-tvOS.release.xcconfig"; path = "Target Support Files/Pods-PlantFloor-tvOS/Pods-PlantFloor-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B16C6100194CBEC85C3D324E /* Pods-Plant Floor - Test.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Test.test.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Test/Pods-Plant Floor - Test.test.xcconfig"; sourceTree = "<group>"; };
+		B55B5F1807414D279E41C4E1 /* Pods-apps-PlantFloor.test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apps-PlantFloor.test.release.xcconfig"; path = "Target Support Files/Pods-apps-PlantFloor/Pods-apps-PlantFloor.test.release.xcconfig"; sourceTree = "<group>"; };
+		B90C4B0C010DB7647B4F1B71 /* Pods-apps-PlantFloor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apps-PlantFloor.release.xcconfig"; path = "Target Support Files/Pods-apps-PlantFloor/Pods-apps-PlantFloor.release.xcconfig"; sourceTree = "<group>"; };
+		BC37E439A9C20DBD800EC042 /* Pods-apps-PlantFloor-PlantFloorTests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apps-PlantFloor-PlantFloorTests.test.xcconfig"; path = "Target Support Files/Pods-apps-PlantFloor-PlantFloorTests/Pods-apps-PlantFloor-PlantFloorTests.test.xcconfig"; sourceTree = "<group>"; };
+		C1C4CCD824D3DA3BDC53FDED /* Pods-apps-PlantFloor-PlantFloorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apps-PlantFloor-PlantFloorTests.debug.xcconfig"; path = "Target Support Files/Pods-apps-PlantFloor-PlantFloorTests/Pods-apps-PlantFloor-PlantFloorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C24DDB996B069F4F62E2CDA1 /* Pods-PlantFloor-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantFloor-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PlantFloor-tvOS/Pods-PlantFloor-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C342923627148127BE376D37 /* Pods-Plant Floor - Test.test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Test.test.release.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Test/Pods-Plant Floor - Test.test.release.xcconfig"; sourceTree = "<group>"; };
+		C723D1A984410627F29EA8C9 /* libPods-PlantFloor-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlantFloor-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBD226D970B34EA11C8181B /* Pods-Plant Floor - Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Dev.release.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Dev/Pods-Plant Floor - Dev.release.xcconfig"; sourceTree = "<group>"; };
+		D38908BB1928B56404A8015E /* Pods-apps-PlantFloor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apps-PlantFloor.debug.xcconfig"; path = "Target Support Files/Pods-apps-PlantFloor/Pods-apps-PlantFloor.debug.xcconfig"; sourceTree = "<group>"; };
+		D55083BA25FA9BD2006A3ADB /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		D55083D525FAA271006A3ADB /* Plant Floor - Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plant Floor - Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55083E325FAA379006A3ADB /* LaunchScreen-Development.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "LaunchScreen-Development.storyboard"; path = "PlantFloor/LaunchScreen-Development.storyboard"; sourceTree = "<group>"; };
+		D550846825FAB15F006A3ADB /* Plant Floor - Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plant Floor - Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D550846E25FAB1AD006A3ADB /* LaunchScreen-Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "LaunchScreen-Test.storyboard"; path = "PlantFloor/LaunchScreen-Test.storyboard"; sourceTree = "<group>"; };
+		D550851D25FAD007006A3ADB /* PlantFloor-Test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PlantFloor-Test.plist"; path = "PlantFloor/PlantFloor-Test.plist"; sourceTree = "<group>"; };
+		D550851F25FAD020006A3ADB /* PlantFloor-Dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PlantFloor-Dev.plist"; path = "PlantFloor/PlantFloor-Dev.plist"; sourceTree = "<group>"; };
+		D550852125FAD035006A3ADB /* PlantFloor-Prod.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PlantFloor-Prod.plist"; path = "PlantFloor/PlantFloor-Prod.plist"; sourceTree = "<group>"; };
+		D557BCB526125B7F008FFDB6 /* mux-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "mux-icons.ttf"; path = "../../../libraries/components/lib/fonts/mux-icons.ttf"; sourceTree = "<group>"; };
+		E1517D83BB6AA0694D3BF1BE /* Pods-PlantFloor.test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantFloor.test.release.xcconfig"; path = "Target Support Files/Pods-PlantFloor/Pods-PlantFloor.test.release.xcconfig"; sourceTree = "<group>"; };
+		E4EBA2DA57E41FC51110E2AA /* Pods-Plant Floor - Prod.test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Prod.test.release.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Prod/Pods-Plant Floor - Prod.test.release.xcconfig"; sourceTree = "<group>"; };
+		E847CC6415D7A9C06A6E140E /* Pods-apps-PlantFloor-PlantFloorTests.test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apps-PlantFloor-PlantFloorTests.test.release.xcconfig"; path = "Target Support Files/Pods-apps-PlantFloor-PlantFloorTests/Pods-apps-PlantFloor-PlantFloorTests.test.release.xcconfig"; sourceTree = "<group>"; };
+		ECBF3C852586AE9EE791E2A0 /* Pods-Plant Floor - Prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Floor - Prod.release.xcconfig"; path = "Target Support Files/Pods-Plant Floor - Prod/Pods-Plant Floor - Prod.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EF1BAC81393F34F34D5DA715 /* Pods-apps-PlantFloor.development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apps-PlantFloor.development.release.xcconfig"; path = "Target Support Files/Pods-apps-PlantFloor/Pods-apps-PlantFloor.development.release.xcconfig"; sourceTree = "<group>"; };
+		F6FE5AFBF842F53F56BBB954 /* libPods-Plant Floor - Dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Plant Floor - Dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CBBBE6FFB7EFABF8D23FEA /* Pods-apps-PlantFloor-PlantFloorTests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apps-PlantFloor-PlantFloorTests.development.xcconfig"; path = "Target Support Files/Pods-apps-PlantFloor-PlantFloorTests/Pods-apps-PlantFloor-PlantFloorTests.development.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1812D716A804CB28095F2EAD /* libPods-Plant Floor - Prod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55083C625FAA271006A3ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48312CDF9607331762316CD /* libPods-Plant Floor - Dev.a in Frameworks */,
+				5A0410511A89E77CE42BE4B5 /* libPods-Plant Floor - Dev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D550845825FAB15F006A3ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD9544D168C12C52A3E81BC /* libPods-Plant Floor - Test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* PlantFloorTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* PlantFloorTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = PlantFloorTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* PlantFloor */ = {
+			isa = PBXGroup;
+			children = (
+				D557BCB426125B4B008FFDB6 /* Resources */,
+				D550852125FAD035006A3ADB /* PlantFloor-Prod.plist */,
+				D550851F25FAD020006A3ADB /* PlantFloor-Dev.plist */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				D550851D25FAD007006A3ADB /* PlantFloor-Test.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen-Production.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				D55083BA25FA9BD2006A3ADB /* Colors.xcassets */,
+				D55083E325FAA379006A3ADB /* LaunchScreen-Development.storyboard */,
+				D550846E25FAB1AD006A3ADB /* LaunchScreen-Test.storyboard */,
+				79C88FC1260D158F009135A6 /* AppCenter-Config.plist */,
+			);
+			name = PlantFloor;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				10DF860731DED47F4E5E2E4F /* libPods-PlantFloor-tvOS.a */,
+				C723D1A984410627F29EA8C9 /* libPods-PlantFloor-tvOSTests.a */,
+				F6FE5AFBF842F53F56BBB954 /* libPods-Plant Floor - Dev.a */,
+				23551900D0047267F120E35E /* libPods-Plant Floor - Test.a */,
+				454315330E51FE9B97426360 /* libPods-Plant Floor - Prod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* PlantFloor */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* PlantFloorTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				8E14B0035C11EE98AC00BE54 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Plant Floor.app */,
+				00E356EE1AD99517003FC87E /* PlantFloorTests.xctest */,
+				D55083D525FAA271006A3ADB /* Plant Floor - Dev.app */,
+				D550846825FAB15F006A3ADB /* Plant Floor - Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E14B0035C11EE98AC00BE54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C24DDB996B069F4F62E2CDA1 /* Pods-PlantFloor-tvOS.debug.xcconfig */,
+				AE845786C01013C37A9F9FD9 /* Pods-PlantFloor-tvOS.release.xcconfig */,
+				5E74ED09F1AA46A652F329EF /* Pods-PlantFloor-tvOSTests.debug.xcconfig */,
+				0C1C0AA65FDC9E92908811E3 /* Pods-PlantFloor-tvOSTests.release.xcconfig */,
+				D38908BB1928B56404A8015E /* Pods-apps-PlantFloor.debug.xcconfig */,
+				21F8EF9D4062D33841AF3E33 /* Pods-apps-PlantFloor.test.xcconfig */,
+				592290C817262CA0F98E6425 /* Pods-apps-PlantFloor.development.xcconfig */,
+				B90C4B0C010DB7647B4F1B71 /* Pods-apps-PlantFloor.release.xcconfig */,
+				B55B5F1807414D279E41C4E1 /* Pods-apps-PlantFloor.test.release.xcconfig */,
+				EF1BAC81393F34F34D5DA715 /* Pods-apps-PlantFloor.development.release.xcconfig */,
+				C1C4CCD824D3DA3BDC53FDED /* Pods-apps-PlantFloor-PlantFloorTests.debug.xcconfig */,
+				BC37E439A9C20DBD800EC042 /* Pods-apps-PlantFloor-PlantFloorTests.test.xcconfig */,
+				F9CBBBE6FFB7EFABF8D23FEA /* Pods-apps-PlantFloor-PlantFloorTests.development.xcconfig */,
+				30F9B1BA6A924EBF96014F6F /* Pods-apps-PlantFloor-PlantFloorTests.release.xcconfig */,
+				E847CC6415D7A9C06A6E140E /* Pods-apps-PlantFloor-PlantFloorTests.test.release.xcconfig */,
+				91A174E2E98C3FBC0F6718D4 /* Pods-apps-PlantFloor-PlantFloorTests.development.release.xcconfig */,
+				9F2CE717A5D35AAAA4ECBFAC /* Pods-PlantFloor.debug.xcconfig */,
+				95DFD0F1E87D9A3E40BAF847 /* Pods-PlantFloor.test.xcconfig */,
+				3F6DDE0A693F86A8547BC032 /* Pods-PlantFloor.development.xcconfig */,
+				60569455E51C16240F4966A1 /* Pods-PlantFloor.release.xcconfig */,
+				E1517D83BB6AA0694D3BF1BE /* Pods-PlantFloor.test.release.xcconfig */,
+				1F9A2AEDFE98F5732AD00018 /* Pods-PlantFloor.development.release.xcconfig */,
+				8A2B5E8F272FCA5A0F5B1FFA /* Pods-Plant Floor - Dev.debug.xcconfig */,
+				A5E237E5A7F4C722993ED400 /* Pods-Plant Floor - Dev.test.xcconfig */,
+				56EFB49054AFA0071CC9282F /* Pods-Plant Floor - Dev.development.xcconfig */,
+				CDBD226D970B34EA11C8181B /* Pods-Plant Floor - Dev.release.xcconfig */,
+				24023144642CEFC183E360C0 /* Pods-Plant Floor - Dev.test.release.xcconfig */,
+				9620C333C9EFED80B5D01215 /* Pods-Plant Floor - Dev.development.release.xcconfig */,
+				80FE1E26A0D99C7814971E1E /* Pods-Plant Floor - Test.debug.xcconfig */,
+				B16C6100194CBEC85C3D324E /* Pods-Plant Floor - Test.test.xcconfig */,
+				4239D429D4524B6E650DE96C /* Pods-Plant Floor - Test.development.xcconfig */,
+				8FD4BF109F0A16A7D4821D87 /* Pods-Plant Floor - Test.release.xcconfig */,
+				C342923627148127BE376D37 /* Pods-Plant Floor - Test.test.release.xcconfig */,
+				0A3B9A6E35F90157AAC7E8ED /* Pods-Plant Floor - Test.development.release.xcconfig */,
+				8093EFAC6BF6DBF406D64091 /* Pods-Plant Floor - Prod.debug.xcconfig */,
+				493D8F0B54EB59CE01DB5475 /* Pods-Plant Floor - Prod.test.xcconfig */,
+				635BD7FE9E8C48763AAFD635 /* Pods-Plant Floor - Prod.development.xcconfig */,
+				ECBF3C852586AE9EE791E2A0 /* Pods-Plant Floor - Prod.release.xcconfig */,
+				E4EBA2DA57E41FC51110E2AA /* Pods-Plant Floor - Prod.test.release.xcconfig */,
+				9570D26905655F8BC5B65D90 /* Pods-Plant Floor - Prod.development.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D557BCB426125B4B008FFDB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D557BCB526125B7F008FFDB6 /* mux-icons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* PlantFloorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PlantFloorTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = PlantFloorTests;
+			productName = PlantFloorTests;
+			productReference = 00E356EE1AD99517003FC87E /* PlantFloorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Plant Floor - Prod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Plant Floor - Prod" */;
+			buildPhases = (
+				EDF07D7A44E9B459860A5F26 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				E4CB44B459EECDF906960ECC /* [CP] Prepare Artifacts */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				D6AE38B24689BCA7F63252D8 /* [CP] Copy Pods Resources */,
+				4BBC89AF187E4A6EB81A4CBD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plant Floor - Prod";
+			productName = PlantFloor;
+			productReference = 13B07F961A680F5B00A75B9A /* Plant Floor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D55083C025FAA271006A3ADB /* Plant Floor - Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55083CE25FAA271006A3ADB /* Build configuration list for PBXNativeTarget "Plant Floor - Dev" */;
+			buildPhases = (
+				9E5DC22D1B13947EE3B2E0A6 /* [CP] Check Pods Manifest.lock */,
+				D55083C225FAA271006A3ADB /* Start Packager */,
+				B8F339107931D8CCC0A899C8 /* [CP] Prepare Artifacts */,
+				D55083C325FAA271006A3ADB /* Sources */,
+				D55083C625FAA271006A3ADB /* Frameworks */,
+				D55083C825FAA271006A3ADB /* Resources */,
+				D55083CC25FAA271006A3ADB /* Bundle React Native code and images */,
+				C03C41044C42BFE0E31099B4 /* [CP] Copy Pods Resources */,
+				4361DDF3AB478D34DFFD6FEF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plant Floor - Dev";
+			productName = PlantFloor;
+			productReference = D55083D525FAA271006A3ADB /* Plant Floor - Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D550845225FAB15F006A3ADB /* Plant Floor - Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D550846125FAB15F006A3ADB /* Build configuration list for PBXNativeTarget "Plant Floor - Test" */;
+			buildPhases = (
+				3B5FC8174E961B2FF0938FDD /* [CP] Check Pods Manifest.lock */,
+				D550845425FAB15F006A3ADB /* Start Packager */,
+				924715712B528C64EAF8668D /* [CP] Prepare Artifacts */,
+				D550845525FAB15F006A3ADB /* Sources */,
+				D550845825FAB15F006A3ADB /* Frameworks */,
+				D550845A25FAB15F006A3ADB /* Resources */,
+				D550845F25FAB15F006A3ADB /* Bundle React Native code and images */,
+				C36085325037859F7986633B /* [CP] Copy Pods Resources */,
+				91B23F54CB620E7215CE1380 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plant Floor - Test";
+			productName = PlantFloor;
+			productReference = D550846825FAB15F006A3ADB /* Plant Floor - Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PlantFloor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Plant Floor - Prod */,
+				00E356ED1AD99517003FC87E /* PlantFloorTests */,
+				D55083C025FAA271006A3ADB /* Plant Floor - Dev */,
+				D550845225FAB15F006A3ADB /* Plant Floor - Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D515E6632603DD42004E771A /* LaunchScreen-Production.storyboard in Resources */,
+				79C88FC2260D158F009135A6 /* AppCenter-Config.plist in Resources */,
+				D557BCB626125B7F008FFDB6 /* mux-icons.ttf in Resources */,
+				D55083BB25FA9BD2006A3ADB /* Colors.xcassets in Resources */,
+				D550852225FAD035006A3ADB /* PlantFloor-Prod.plist in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55083C825FAA271006A3ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55083C925FAA271006A3ADB /* Colors.xcassets in Resources */,
+				79C88FC3260D158F009135A6 /* AppCenter-Config.plist in Resources */,
+				D557BCBB26125B84008FFDB6 /* mux-icons.ttf in Resources */,
+				D55083E425FAA379006A3ADB /* LaunchScreen-Development.storyboard in Resources */,
+				D550852025FAD020006A3ADB /* PlantFloor-Dev.plist in Resources */,
+				D55083CB25FAA271006A3ADB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D550845A25FAB15F006A3ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D550845B25FAB15F006A3ADB /* Colors.xcassets in Resources */,
+				79C88FC4260D158F009135A6 /* AppCenter-Config.plist in Resources */,
+				D557BCBC26125B85008FFDB6 /* mux-icons.ttf in Resources */,
+				D550846F25FAB1AD006A3ADB /* LaunchScreen-Test.storyboard in Resources */,
+				D550845E25FAB15F006A3ADB /* Images.xcassets in Resources */,
+				D550851E25FAD007006A3ADB /* PlantFloor-Test.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# added by Haul\nexport CLI_PATH=node_modules/@haul-bundler/cli/bin/haul.js\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		3B5FC8174E961B2FF0938FDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plant Floor - Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4361DDF3AB478D34DFFD6FEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Dev/Pods-Plant Floor - Dev-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Dev/Pods-Plant Floor - Dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BBC89AF187E4A6EB81A4CBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Prod/Pods-Plant Floor - Prod-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Prod/Pods-Plant Floor - Prod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91B23F54CB620E7215CE1380 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Test/Pods-Plant Floor - Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Test/Pods-Plant Floor - Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		924715712B528C64EAF8668D /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Test/Pods-Plant Floor - Test-artifacts.sh",
+				"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/AppCenterAnalytics.xcframework",
+				"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/AppCenter.xcframework",
+				"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/AppCenterCrashes.xcframework",
+				"${PODS_ROOT}/AppCenterReactNativeShared/AppCenterReactNativeShared/AppCenterReactNativeShared.xcframework",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Test/Pods-Plant Floor - Test-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5DC22D1B13947EE3B2E0A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plant Floor - Dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F339107931D8CCC0A899C8 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Dev/Pods-Plant Floor - Dev-artifacts.sh",
+				"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/AppCenterAnalytics.xcframework",
+				"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/AppCenter.xcframework",
+				"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/AppCenterCrashes.xcframework",
+				"${PODS_ROOT}/AppCenterReactNativeShared/AppCenterReactNativeShared/AppCenterReactNativeShared.xcframework",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Dev/Pods-Plant Floor - Dev-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C03C41044C42BFE0E31099B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Dev/Pods-Plant Floor - Dev-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Dev/Pods-Plant Floor - Dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36085325037859F7986633B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Test/Pods-Plant Floor - Test-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Test/Pods-Plant Floor - Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D55083C225FAA271006A3ADB /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D55083CC25FAA271006A3ADB /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# added by Haul\nexport CLI_PATH=node_modules/@haul-bundler/cli/bin/haul.js\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		D550845425FAB15F006A3ADB /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D550845F25FAB15F006A3ADB /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nexport BUNDLE_COMMAND=webpack-bundle\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		D6AE38B24689BCA7F63252D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Prod/Pods-Plant Floor - Prod-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Prod/Pods-Plant Floor - Prod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CB44B459EECDF906960ECC /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Prod/Pods-Plant Floor - Prod-artifacts.sh",
+				"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/AppCenterAnalytics.xcframework",
+				"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/AppCenter.xcframework",
+				"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/AppCenterCrashes.xcframework",
+				"${PODS_ROOT}/AppCenterReactNativeShared/AppCenterReactNativeShared/AppCenterReactNativeShared.xcframework",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plant Floor - Prod/Pods-Plant Floor - Prod-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF07D7A44E9B459860A5F26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plant Floor - Prod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* PlantFloorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55083C325FAA271006A3ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55083C425FAA271006A3ADB /* AppDelegate.m in Sources */,
+				D55083C525FAA271006A3ADB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D550845525FAB15F006A3ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D550845625FAB15F006A3ADB /* AppDelegate.m in Sources */,
+				D550845725FAB15F006A3ADB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Plant Floor - Prod */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlantFloorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlantFloor.app/PlantFloor";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PlantFloorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlantFloor.app/PlantFloor";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8093EFAC6BF6DBF406D64091 /* Pods-Plant Floor - Prod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "PlantFloor/PlantFloor-Prod.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plex.mobile;
+				PRODUCT_NAME = "Plant Floor";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBF3C852586AE9EE791E2A0 /* Pods-Plant Floor - Prod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "PlantFloor/PlantFloor-Prod.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plex.mobile;
+				PRODUCT_NAME = "Plant Floor";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RCT_NO_LAUNCH_PACKAGER = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				RCT_NO_LAUNCH_PACKAGER = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D55083CF25FAA271006A3ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2B5E8F272FCA5A0F5B1FFA /* Pods-Plant Floor - Dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Development";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "PlantFloor/PlantFloor-Dev.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plex.mobile.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D55083D225FAA271006A3ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDBD226D970B34EA11C8181B /* Pods-Plant Floor - Dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Development";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "PlantFloor/PlantFloor-Dev.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plex.mobile.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		D550846225FAB15F006A3ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80FE1E26A0D99C7814971E1E /* Pods-Plant Floor - Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Test";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "PlantFloor/PlantFloor-Test.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plex.mobile.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D550846525FAB15F006A3ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD4BF109F0A16A7D4821D87 /* Pods-Plant Floor - Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Test";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "PlantFloor/PlantFloor-Test.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plex.mobile.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PlantFloorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Plant Floor - Prod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PlantFloor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D55083CE25FAA271006A3ADB /* Build configuration list for PBXNativeTarget "Plant Floor - Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55083CF25FAA271006A3ADB /* Debug */,
+				D55083D225FAA271006A3ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D550846125FAB15F006A3ADB /* Build configuration list for PBXNativeTarget "Plant Floor - Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D550846225FAB15F006A3ADB /* Debug */,
+				D550846525FAB15F006A3ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

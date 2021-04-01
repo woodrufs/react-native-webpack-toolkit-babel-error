@@ -1,0 +1,3 @@
+{
+  "extends": ["plex-standards", "plex-standards/node"]
+}

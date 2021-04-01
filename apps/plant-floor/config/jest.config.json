@@ -1,0 +1,3 @@
+{
+  "preset": "./node_modules/@strmbrkr/common-rig/profiles/default/jest.config.json"
+}

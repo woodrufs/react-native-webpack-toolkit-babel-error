@@ -1,0 +1,11 @@
+{
+  "name": "@strmbrkr/prettier-config",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": ""
+  },
+  "dependencies": {
+    "prettier": "2.2.1"
+  }
+}
