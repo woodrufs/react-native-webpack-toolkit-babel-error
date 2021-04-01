@@ -270,8 +270,6 @@ PODS:
     - React-Core
   - react-native-splash-screen (3.2.0):
     - React
-  - react-native-webpack-toolkit (1.1.0):
-    - React-Core
   - react-native-webview (11.2.5):
     - React-Core
   - React-RCTActionSheet (0.63.4):
@@ -422,7 +420,6 @@ DEPENDENCIES:
   - react-native-config (from `../../../common/temp/node_modules/.pnpm/registry.npmjs.org/react-native-config/1.4.2/node_modules/react-native-config`)
   - react-native-safe-area-context (from `../../../common/temp/node_modules/.pnpm/registry.npmjs.org/react-native-safe-area-context/3.2.0_bbdc4cfe48162b3e03d4539639de7dc6/node_modules/react-native-safe-area-context`)
   - "react-native-splash-screen (from `../../../common/temp/node_modules/.pnpm/registry.npmjs.org/react-native-splash-screen/3.2.0_react-native@0.63.4/node_modules/react-native-splash-screen`)"
-  - react-native-webpack-toolkit (from `../../../common/temp/node_modules/.pnpm/registry.npmjs.org/react-native-webpack-toolkit/1.1.0_e73f65e5df89a697ac188685ef635f66/node_modules/react-native-webpack-toolkit`)
   - "react-native-webview (from `../../../common/temp/node_modules/.pnpm/registry.npmjs.org/react-native-webview/11.2.5_react-native@0.63.4/node_modules/react-native-webview`)"
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -505,8 +502,6 @@ EXTERNAL SOURCES:
     :path: "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/react-native-safe-area-context/3.2.0_bbdc4cfe48162b3e03d4539639de7dc6/node_modules/react-native-safe-area-context"
   react-native-splash-screen:
     :path: "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/react-native-splash-screen/3.2.0_react-native@0.63.4/node_modules/react-native-splash-screen"
-  react-native-webpack-toolkit:
-    :path: "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/react-native-webpack-toolkit/1.1.0_e73f65e5df89a697ac188685ef635f66/node_modules/react-native-webpack-toolkit"
   react-native-webview:
     :path: "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/react-native-webview/11.2.5_react-native@0.63.4/node_modules/react-native-webview"
   React-RCTActionSheet:
@@ -581,7 +576,6 @@ SPEC CHECKSUMS:
   react-native-config: c98128a72bc2c3a1ca72caec0b021f0fa944aa29
   react-native-safe-area-context: f0906bf8bc9835ac9a9d3f97e8bde2a997d8da79
   react-native-splash-screen: 200d11d188e2e78cea3ad319964f6142b6384865
-  react-native-webpack-toolkit: 28ba56a9eb16b7e6ddcf69ac515a0b0944ebd5cb
   react-native-webview: e994346d13f4d8b240347bc5be043a860452e4b6
   React-RCTActionSheet: 89a0ca9f4a06c1f93c26067af074ccdce0f40336
   React-RCTAnimation: 1bde3ecc0c104c55df246eda516e0deb03c4e49b

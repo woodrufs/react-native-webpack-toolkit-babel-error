@@ -8,11 +8,11 @@
     "android-dev": "ENVFILE=.env.dev react-native run-android --variant 'developmentDebug' --appId com.plantfloor.development",
     "android-prod": "ENVFILE=.env.prod react-native run-android --variant 'productionDebug' --appId com.plantfloor.production",
     "android-test": "ENVFILE=.env.test react-native run-android --variant 'stagingDebug' --appId com.plantfloor.test",
-    "build": "heft test --clean",
+    "build": "heft test --clean --lite",
     "ios-dev": "ENVFILE=.env.dev react-native run-ios --scheme 'Plant Floor - Development'",
     "ios-prod": "ENVFILE=.env.prod react-native run-ios --scheme 'Plant Floor - Production'",
     "ios-test": "ENVFILE=.env.test react-native run-ios --scheme 'Plant Floor - Test'",
-    "start": "react-native webpack-start",
+    "start": "haul start",
     "test": "jest"
   },
   "dependencies": {
@@ -47,6 +47,9 @@
     "@react-native-community/eslint-config": "2.0.0",
     "@babel/core": "7.13.10",
     "@babel/runtime": "7.13.10",
+    "@haul-bundler/babel-preset-react-native": "0.16.0",
+    "@haul-bundler/cli": "0.22.1",
+    "@haul-bundler/preset-0.60": "0.18.0",
     "@types/heft-jest": "1.0.2",
     "@types/jest": "26.0.20",
     "@types/node": "14.14.35",
@@ -58,11 +61,7 @@
     "babel-jest": "26.6.3",
     "jest": "26.6.3",
     "metro-react-native-babel-preset": "0.65.2",
-    "typescript": "4.2.3",
-    "react-native-webpack-toolkit": "1.1.0",
-    "webpack": "5.22.0",
-    "terser-webpack-plugin": "~5.1.1",
-    "babel-loader": "8.2.2"
+    "typescript": "4.2.3"
   },
   "jest": {
     "preset": "react-native",
