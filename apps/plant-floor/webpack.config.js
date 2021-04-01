@@ -121,6 +121,8 @@ module.exports = {
      */
     alias: {
       "react-native": reactNativePath,
+      "@babel/runtime":
+        "../../common/temp/node_modules/.pnpm/node_modules/@babel/runtime",
     },
   },
   /**
